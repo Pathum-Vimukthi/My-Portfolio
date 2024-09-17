@@ -1,12 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 import ParticlesBg from 'particles-bg'
 
 function sidenav() {
+
+    const [nav, setNav] = useState(false);
+    const handleNav = () =>{
+        setNav(!nav);
+    }
+
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      
-    </>
+    <div>
+        <GiHamburgerMenu />
+    </div>
   );
 }
 
