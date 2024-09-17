@@ -6,6 +6,17 @@ import profile from "../assets/Pathum Karunasinghe.jpg";
 import TypeWritter from "./TypeWritter";
 
 function Main() {
+  const handleDownload = () => {
+    const url = "./assets/Pathum_Karunasinghe.pdf";
+    const fileName = "Pathum_Karunasinghe.pdf";
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", fileName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div id="main">
       <ParticlesBg
@@ -28,7 +39,7 @@ function Main() {
             </p>
             <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6 gap-16  ">
               <button
-                onClick={() => {}}
+                onClick={handleDownload}
                 className="flex px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-orange-500/60 text-black items-center space-x-2 rounded-3xl"
               >
                 <p>Download CV</p>
