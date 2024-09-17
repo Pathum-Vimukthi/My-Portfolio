@@ -22,7 +22,7 @@ function SideNavBar() {
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
           <a
             href="#main"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
           >
             <IoHomeSharp size={20} />
             <span className="pl-4 font-primary font-bold">HOME</span>
@@ -30,7 +30,7 @@ function SideNavBar() {
 
           <a
             href="#aboutme"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
           >
             <BsFillPersonFill size={20} />
             <span className="pl-4 font-primary font-bold">ABOUT</span>
@@ -38,7 +38,7 @@ function SideNavBar() {
 
           <a
             href="#myservices"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
           >
             <MdOutlineMiscellaneousServices size={20} />
             <span className="pl-4 font-primary font-bold">SERVICES</span>
@@ -46,7 +46,7 @@ function SideNavBar() {
 
           <a
             href="#education&skills"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
           >
             <IoSchoolSharp size={20} />
             <span className="pl-4 font-primary font-bold">SKILL</span>
@@ -54,7 +54,7 @@ function SideNavBar() {
 
           <a
             href="#projects"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
           >
             <AiFillAppstore size={20}/>
             <span className="pl-4 font-primary font-bold">PROJECTS</span>
@@ -62,7 +62,7 @@ function SideNavBar() {
 
           <a
             href="#contact"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
           >
             <FaEnvelope size={20} />
             <span className="pl-4 font-primary font-bold">CONTACT</span>
@@ -75,37 +75,37 @@ function SideNavBar() {
         <div className="flex flex-col">
           <a
             href="#main"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <IoHomeSharp size={20} />
           </a>
           <a
             href="#aboutme"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <BsFillPersonFill size={20} />
           </a>
           <a
             href="#myservices"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <MdOutlineMiscellaneousServices size={20} />
           </a>
           <a
             href="#education&skills"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <IoSchoolSharp size={20} />
           </a>
           <a
             href="#projects"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiFillAppstore size={20}/>
           </a>
           <a
             href="#contact"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full shadow-lg bg-yellow-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FaEnvelope size={20} />
           </a>
