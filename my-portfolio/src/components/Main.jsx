@@ -31,7 +31,7 @@ function Main() {
               Hello, I'm <span className="text-yellow-700">Pathum</span>
             </h1>
             <TypeWritter />
-            <p className="mt-[1.5rem] text-[18px] ">
+            <p className="mt-[1.5rem] text-[18px] text-justify">
               Motivated software engineering student with a strong foundation in
               web and software development. Passionate about learning through
               fixing bugs and solving complex problems. Dedicated to mastering
