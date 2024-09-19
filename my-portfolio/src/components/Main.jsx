@@ -7,7 +7,7 @@ import TypeWritter from "./TypeWritter";
 
 function Main() {
   const handleDownload = () => {
-    const url = "./assets/Pathum_Karunasinghe.pdf";
+    const url = "../public/Pathum_Karunasinghe.pdf";
     const fileName = "Pathum_Karunasinghe.pdf";
     const link = document.createElement("a");
     link.href = url;
@@ -24,7 +24,7 @@ function Main() {
         bg={true}
         className="w-full h-screen object-cover"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
+      <div className="w-full h-screen  top-0 left-0 bg-white/65">
         <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center ">
           <div>
             <h1 className="text-4xl font-primary font-bold">

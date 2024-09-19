@@ -5,11 +5,11 @@ function TypeWritter() {
   return (
     <TypeAnimation
       sequence={[
-        "FREELANCER",
+        "FULL STACK DEVELOPER",
         2000,
         "TECH ENTHUSIAST",
         2000,
-        "FULL STACK DEVELOPER",
+        "FREELANCER",
         2000,
       ]}
       wrapper="div"
